@@ -13,7 +13,7 @@
     document.getElementById('btn').onclick = async () => {
       const res = await fetch("http://localhost:8080/hello");
       const text = await res.text();
-      document.getElementById('output').textContent = text;
+      document.getElementById('output1').textContent = text;
     };
   </script>
 </body>
